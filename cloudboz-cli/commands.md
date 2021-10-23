@@ -77,21 +77,6 @@ EQPTmKD4WpjdhPAAAAE3N1Z2FuZGFAbWVtb29yYS5jb20BAgMEBQYH
 -----END OPENSSH PRIVATE KEY-----
 ```
 
-You can use existing servers, if you already connect your server with CloudBoz.
-
-```
-> Please Choose Server Provider
-- CloudBoz Server (Free Trial) (default)
-- Amazon Web Service
-- Other
-- Existing Servers
-
-> Please Choose Existing Servers
-- MyServer1
-- MyServer2
-- Back
-```
-
 ### MariaDB
 
 ```
