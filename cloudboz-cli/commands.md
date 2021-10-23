@@ -12,15 +12,15 @@ Database is an organized collection of data stored and accessed electronically f
 cloudboz create mysql:8.0
 ```
 
-If you have an existing server, terminal will show this prompt. You can choose an existing server on your account or setup new server.
+If you have an existing server, the terminal will show this prompt. You can choose an existing server on your account or setup a new server.
 
 ```
 > Please Choose Server
 - My Server 1
-- Setup New Server
+-+ Setup a New Server
 ```
 
-But, if you haven't any server, terminal will show this prompt. By default you will use CloudBoz Server for free trial.&#x20;
+But, if you haven't any server, the terminal will show this prompt. By default you will use CloudBoz Server for free trial.&#x20;
 
 ```
 > It looks like that you haven't setup any server, please choose server provider
