@@ -12,16 +12,24 @@ Database is an organized collection of data stored and accessed electronically f
 cloudboz create mysql:8.0
 ```
 
-After create app, you terminal show this prompt. By default you will use CloudBoz Server for free trial. 
+If you have an existing server, terminal will show this prompt. You can choose an existing server on your account or setup new server.
 
 ```
-> Please Choose Server Provider
+> Please Choose Server
+- My Server 1
+- Setup New Server
+```
+
+But, if you haven't any server, terminal will show this prompt. By default you will use CloudBoz Server for free trial.&#x20;
+
+```
+> It looks like that you haven't setup any server, please choose server provider
 - CloudBoz Server (Free Trial) (default)
 - Amazon Web Service
 - Other
 ```
 
-But, if you want to use your own Amazon Web Service account, please insert your API Key with full access to EC2. Please read this [documentations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html).
+But, if you want to use your own Amazon Web Service account, please insert your API Key with full access to EC2. Please read this [documentations](https://docs.aws.amazon.com/IAM/latest/UserGuide/id\_credentials\_access-keys.html).
 
 ```
 > Please Choose Server Provider
