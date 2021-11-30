@@ -122,3 +122,32 @@ cloudboz create nginx:8.0
 ```
 cloudboz create openlitespeed:8.0
 ```
+
+## Applications
+
+This feature help you to deploy your own application, support with git platform like GitLab, Bitbucket and GitHub.
+
+### CloudBoz Repository
+
+```
+cloudboz create node:16.0.0
+```
+
+After create new app like Node.js, you will see git remote for your applications. So please change directory to your application.
+
+```
+cloudboz init .
+
+This will be generate new file config.cbz
+https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
+
+cloudboz remote git@cloudboz.com/app-nodejs.git
+cloudboz add .
+cloudboz commit -m "first commit"
+cloudboz push
+```
+
+### Git Platforms
+
+You can use GitLab, Bitbucket and GitHub for deploy your applications.
+
