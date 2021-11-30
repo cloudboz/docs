@@ -144,7 +144,7 @@ https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
 cloudboz remote git@cloudboz.com/app-nodejs.git
 cloudboz add .
 cloudboz commit -m "first commit"
-cloudboz push
+cloudboz push main
 ```
 
 ### Git Platforms
